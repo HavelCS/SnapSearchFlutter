@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "522974120071",
+    "project_id": "snapsearch-2dd39",
+    "storage_bucket": "snapsearch-2dd39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522974120071:android:f6f05efa98a149b9019022",
+        "android_client_info": {
+          "package_name": "com.example.snapsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522974120071-hurjbcdtn0d8dacfmka83d3f246s8baa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrvOawnvXff3qXQoiE2YwJROPzkpjiY4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522974120071-hurjbcdtn0d8dacfmka83d3f246s8baa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
