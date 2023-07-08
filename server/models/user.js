@@ -30,6 +30,7 @@ const UserSchema = mongoose.Schema({
             message: "Please enter a valid email address"
         }
     },
+    
 
 });
 
