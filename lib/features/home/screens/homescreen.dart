@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:snapsearch/constants/colors.dart';
 import 'package:snapsearch/features/home/screens/album/albumscreen.dart';
 import 'package:snapsearch/features/home/screens/album/viewgallary.dart';
-import 'package:snapsearch/features/home/screens/displayimages.dart';
+
 import 'package:snapsearch/features/home/screens/uploadimagestocloud.dart';
 
 class HomeScreen extends StatefulWidget {
