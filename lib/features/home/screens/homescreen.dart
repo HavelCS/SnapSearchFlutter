@@ -29,13 +29,13 @@ class _HomeScreenState extends State<HomeScreen> {
      final items = <Widget>[
       Icon(Icons.add,
           color:
-              (currentindex == 0) ?  Colors.white: const Color(0XFF8C8C8C)),
+              (currentindex == 0) ?  Colors.white: const Color(0xff676D75)),
       Icon(Icons.list,
           color:
-              (currentindex == 1) ? Colors.white: const Color(0XFF8C8C8C)),
+              (currentindex == 1) ? Colors.white: const Color(0xff676D75)),
       Icon(
         Icons.compare_arrows,
-        color: (currentindex == 2) ? Colors.white: const Color(0XFF8C8C8C),
+        color: (currentindex == 2) ? Colors.white: const Color(0xff676D75),
       ),
   
     ];
@@ -47,9 +47,9 @@ class _HomeScreenState extends State<HomeScreen> {
         height: 60.0,
         
         items: items,
-        color: const Color(0xff2F2F2F), //navbar color
+        color: const Color(0xff1D1F24), //navbar color
         backgroundColor: Colors.transparent,
-        buttonBackgroundColor: const Color(0xff948DFF),
+        buttonBackgroundColor: primaryColor,
 
         animationCurve: Curves.easeInOut,
         animationDuration: const Duration(milliseconds: 300),
