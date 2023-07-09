@@ -27,7 +27,8 @@ class _DisplayImagesState extends State<DisplayImages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-    backgroundColor: Colors.grey[200],
+      
+    backgroundColor: Color(0xff121212),
       body: MasonryGridView.builder(
         itemCount: images.length,
         gridDelegate: SliverSimpleGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), itemBuilder: (context,index){

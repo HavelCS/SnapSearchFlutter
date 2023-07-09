@@ -94,7 +94,9 @@ TextEditingController namecontroller= TextEditingController();
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 34.0.w),
                 child: GestureDetector(
-                  onTap: signupUser,
+                  onTap: (){
+                    signupUser();
+                  },
                   child: Container(
                     alignment: Alignment.center,
                     height: 58.h,

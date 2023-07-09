@@ -1,5 +1,8 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:snapsearch/constants/colors.dart';
 
 class UploadImagesToCloud extends StatefulWidget {
   const UploadImagesToCloud({super.key});
@@ -23,13 +26,13 @@ class _UploadImagesToCloudState extends State<UploadImagesToCloud> {
   void initState() {
     
     super.initState();
-    selectImage();
+
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          backgroundColor: Colors.black,
+          backgroundColor: backgroundColor,
       body: Center(
         child: Text("Upload Images"),
       ),
