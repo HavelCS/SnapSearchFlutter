@@ -13,6 +13,12 @@ app.use(express.json());
 app.use(authRouter);
 
 
+app.post("/upload",(req,res)=>{
+    console.log("we ball");
+    console.log(req.body);
+});
+
+
 //CONNECTIONS
 app.listen(PORT, "0.0.0.0", function(){
     console.log(`Connected at port ${PORT}`);

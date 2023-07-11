@@ -3,8 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:snapsearch/constants/colors.dart';
 import 'package:snapsearch/features/home/screens/album/albumscreen.dart';
 import 'package:snapsearch/features/home/screens/album/viewgallary.dart';
+import 'package:snapsearch/features/home/screens/displayimages/displayimages.dart';
 
-import 'package:snapsearch/features/home/screens/uploadimagestocloud.dart';
+import 'package:snapsearch/features/home/screens/uploadimages/uploadimagestocloud.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routename = '/home';
@@ -19,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
  
   final GlobalKey<CurvedNavigationBarState> _bottomNavigationKey = GlobalKey();
     final screens = [
-    const ViewGallaryScreen(),
+    const DisplayImages(),
     const UploadImagesToCloud(),
     const AlbumScreen(),
     ];

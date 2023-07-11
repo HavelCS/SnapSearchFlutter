@@ -1,6 +1,7 @@
 // ignore_for_file: unused_local_variable
 
 
+
 import 'package:flutter/material.dart';
 
 import 'package:image_picker/image_picker.dart';
@@ -22,6 +23,9 @@ class _RecognizationScreenState extends State<RecognizationScreen> {
  
   String? getImagePath;
   XFile? _image;
+
+
+
 
 
  
@@ -48,6 +52,7 @@ class _RecognizationScreenState extends State<RecognizationScreen> {
         getImagePath = image.path;
         _image = image;
         getObjects();
+        
       }
     });
   }

@@ -49,6 +49,7 @@ dependencies:
   flutter_staggered_grid_view: ^0.6.2
   cached_network_image: ^3.2.3
   flutter_svg: ^2.0.7
+  exif: ^3.1.4
   
 
   
@@ -111,6 +112,13 @@ flutter:
     - family: BlinkerSemiBold
       fonts:
         - asset: assets/fonts/Blinker-SemiBold.ttf
+    - family: WrightRomanBold
+      fonts:
+        - asset: assets/fonts/wrightromanbold.ttf
+    - family: WrightRomanRegular
+      fonts:
+        - asset: assets/fonts/wrightromanregular.ttf
+
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
