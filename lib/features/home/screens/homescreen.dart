@@ -1,8 +1,8 @@
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:snapsearch/constants/colors.dart';
-import 'package:snapsearch/features/home/screens/album/albumscreen.dart';
-import 'package:snapsearch/features/home/screens/album/viewgallary.dart';
+
+
 import 'package:snapsearch/features/home/screens/displayimages/displayimages.dart';
 
 import 'package:snapsearch/features/home/screens/uploadimages/uploadimagestocloud.dart';
@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final screens = [
     const DisplayImages(),
     const UploadImagesToCloud(),
-    const AlbumScreen(),
+
     ];
      
   @override
@@ -35,10 +35,6 @@ class _HomeScreenState extends State<HomeScreen> {
       Icon(Icons.list,
           color:
               (currentindex == 1) ? Colors.white: const Color(0xff676D75)),
-      Icon(
-        Icons.compare_arrows,
-        color: (currentindex == 2) ? Colors.white: const Color(0xff676D75),
-      ),
   
     ];
     return  Scaffold(
